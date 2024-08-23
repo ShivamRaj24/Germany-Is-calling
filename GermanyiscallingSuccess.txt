@@ -1,0 +1,18 @@
+package com.section1;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GermanyiscallingSuccess {
+public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://app.germanyiscalling.com/common/login/?next=https%3A%2F%2Fapp.germanyiscalling.com%2Fcv%2Fhome%2F");
+		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("test1@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("test1test");
+		driver.findElement(By.xpath("/html/body/div/div[1]/div/div/div/form/div[3]/button")).click();
+		
+}
+}
