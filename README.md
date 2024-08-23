@@ -3,3 +3,5 @@ Test Execution Steps: 1st i wrote a code to open browser
 3rd i worte code to enter credentails
 4th i wrote code for login
 5th i wrote code for fetching message
+
+To Run these code just copy and paste into any selenium java compiler and run it
